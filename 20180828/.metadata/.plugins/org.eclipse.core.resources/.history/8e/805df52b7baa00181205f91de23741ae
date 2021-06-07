@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Test2 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("사칙연산을 하시오");
+		int a,b;
+		int sum;
+	}
+}

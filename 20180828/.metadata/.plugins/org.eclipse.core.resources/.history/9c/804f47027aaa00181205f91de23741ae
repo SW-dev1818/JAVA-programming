@@ -1,0 +1,11 @@
+public class Test1 {
+	public static void main(String[] args) {
+		int a;
+		int b;
+		b = 2;
+		for(a = 0; a<72; a++) {
+			System.out.println("a*b");
+		}
+		
+	}
+}

@@ -1,0 +1,5 @@
+public class MyMath {
+	int square(int i) {
+		return i * i;
+	}
+}

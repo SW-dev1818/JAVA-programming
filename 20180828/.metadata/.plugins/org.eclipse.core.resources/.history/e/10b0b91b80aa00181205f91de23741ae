@@ -1,0 +1,46 @@
+public class Test1 {
+	public static void main(String[] args) {
+		int a;
+		int b;
+		int c;
+		int d;
+		int e;
+		int f;
+		int g;
+		int h;
+		int i;
+		b = 2;
+		c = 3;
+		d = 4;
+		e = 5;
+		f = 6;
+		g = 7;
+		h = 8;
+		i = 9;
+		for(a = 0; a<72; a++) {
+			System.out.println(a*b);
+		}
+		for(b = 0; b<72; b++) {
+			System.out.println(b*c);
+		}
+		for(c = 0; c<72; c++) {
+			System.out.println(c*d);
+		}
+		for(d = 0; d<72; d++) {
+			System.out.println(d*e);
+		}
+		for(e = 0; e<72; e++) {
+			System.out.println(e*f);
+		}
+		for(f = 0; f<72; f++) {
+			System.out.println(f*g);
+		}
+		for(g = 0; g<72; g++) {
+			System.out.println(g*h);
+		}
+		for(h = 0; h<72; h++) {
+			System.out.println(h*i);
+		}
+		
+	}
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Test2 {
+	public static void main(String[] args) {
+		int a;
+		int b;
+		int c;
+		int d;
+		int e;
+		int f;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("사칙연산을 입력하시오: ");
+		a = scan.nextInt();
+		b = scan.nextInt();
+		while(a>=0) {
+			c = a + b;
+			System.out.println(c);
+			break;
+		}
+		d = scan.nextInt();
+		e = scan.nextInt();
+		while(d>=0) {
+			f = d - e;
+			System.out.println(f);
+			break;
+		}
+	}
+}

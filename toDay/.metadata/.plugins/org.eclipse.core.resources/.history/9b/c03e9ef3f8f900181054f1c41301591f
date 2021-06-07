@@ -1,0 +1,49 @@
+import java.awt.*; 
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*; 
+import java.io.*;
+
+
+class Test002 extends JFrame implements ActionListener{
+	Test002(){
+		setSize(500, 500);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("주문화면");
+		
+		JPanel p;
+		JLabel l,l2,l3;
+		JButton btn;
+		
+		p = new JPanel();
+		l = new JLabel();
+		l.setText("주문 확인");
+		l2 = new JLabel("아메리카노");
+		l3 = new JLabel("에스프레소");
+		btn = new JButton("결제하기");
+		
+		p = new JPanel(new BorderLayout());
+		
+
+		p.add(l2);
+		p.add(l3);
+		this.add(p);
+		
+		setVisible(true);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+}
+public class Test02 {
+
+	public static void main(String[] args) {
+		new Test002();
+
+	}
+
+}
+

@@ -1,0 +1,21 @@
+public class Test1 {
+	public static void main(String[] args) {
+		int a;
+		int b;
+		int c;
+		int d;
+		b = 2;
+		c = 3;
+		d = 4;
+		for(a = 0; a<72; a++) {
+			System.out.println(a*b);
+		}
+		for(b = 0; b<72; b++) {
+			System.out.println(b*c);
+		}
+		for(c = 0; c<72; c++) {
+			System.out.println(c*d);
+		}
+		
+	}
+}
